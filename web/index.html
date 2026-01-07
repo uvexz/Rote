@@ -13,10 +13,9 @@
     <!-- 禁止 Safari 拖动刷新效果（有些页面不希望有 bounce） -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Import Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://use.sevencdn.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;900&display=swap"
+      href="https://use.sevencdn.com/css2?family=Noto+Serif+SC:wght@300;400;600;900&display=swap"
       rel="stylesheet"
       crossorigin="anonymous"
     />
@@ -29,7 +28,7 @@
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme:light)" />
     <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme:dark)" />
 
-    <script src="https://cdn.jsdelivr.net/npm/ios-pwa-splash@1.0.0/cdn.min.js"></script>
+    <script src="https://use.sevencdn.com/npm/ios-pwa-splash@1.0.0/cdn.min.js"></script>
     <script>
       iosPWASplash('logo.png', '#ffffff');
     </script>
@@ -57,17 +56,11 @@
         }
       })();
     </script>
-    <!-- Umami -->
-    <script
-      defer
-      src="https://umami.rote.ink/script.js"
-      data-website-id="99c1821a-4d53-47b5-9014-f74bfa60cd0a"
-    ></script>
     <!-- React Scan - Development only -->
     <script type="module">
       if (import.meta.env.DEV) {
         const script = document.createElement('script');
-        script.src = 'https://unpkg.com/react-scan/dist/auto.global.js';
+        script.src = 'https://use.sevencdn.com/npm/react-scan/dist/auto.global.js';
         document.head.appendChild(script);
       }
     </script>

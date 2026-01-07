@@ -81,7 +81,7 @@ export default function GlobalRouterProvider() {
         },
         {
           path: '',
-          element: isTokenValid() ? <Navigate to="/home" /> : <Navigate to="/landing" />,
+          element: isTokenValid() ? <Navigate to="/home" /> : <Navigate to="/explore" />,
         },
         {
           path: '/',
